@@ -1,0 +1,20 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore screenshots if not required
+# screenshots/
+
+# Ignore ZIPs or archives
+*.zip
