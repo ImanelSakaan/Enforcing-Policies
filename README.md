@@ -3,6 +3,7 @@ Enforcing Organizational Policies in the Cloud
 
 ## 🎥 Video Demo
 [Watch the video demo](#) *(https://youtu.be/EBBPP0rfjlM)*
+**[▶️ YouTube Video Link]([https://youtu.be/EBBPP0rfjlM])**
 
 # MapleTech Policy Lab
 
