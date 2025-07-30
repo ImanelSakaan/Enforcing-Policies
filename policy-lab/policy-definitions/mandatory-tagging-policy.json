@@ -1,0 +1,29 @@
+{
+  "mode": "All",
+  "policyRule": {
+    "if": {
+      "allOf": [
+        {
+          "field": "type",
+          "notEquals": "Microsoft.Resources/subscriptions/resourceGroups"
+        },
+        {
+          "anyOf": [
+            {
+              "field": "tags['ProjectName']",
+              "exists": "false"
+            },
+            {
+              "field": "tags['ProjectName']",
+              "equals": ""
+            }
+          ]
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+  },
+  "parameters": {}
+}
